@@ -1,0 +1,74 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+
+<head>
+
+	<meta charset ="UTF-8" />
+	<meta http-equiv ="X-UA-Compatible" content="IE=edge"/>
+	<script src ="scripts.js" defer></script>
+	<link rel="stylesheet" href="style.css"/>
+    <title>Página incial</title>
+
+</head>
+
+<body>
+
+    <div class="tabs">
+        <button id="btn-0" class="tab"> Conversor de graus Celsius para graus Rømer </button>
+        <button id="btn-1" class="tab"> Conversor de Watt em CV, HP e BTU/h </button>
+        <button id="btn-2" class="tab"> Calculadora de área e volume de um paralelepípedo; </button>
+    </div> 
+
+    <div class="container">
+
+        <div class="wrapper" id="wrapper-0">
+            <h1>Conversor de graus Celsius para graus Rømer </h1>
+            <label>Temperatura °C:</label>
+            <input type="number" id="entrada-ctor"/>
+            <label>Resultado:</label>
+            <input type="text" id="resultado" disabled/>
+            <button id='btn-ctor'> Converter</button>
+        
+        </div>
+
+        
+        <div class="wrapper" id="wrapper-1">
+            <h1> Conversor de Watt em CV, HP e BTU/h</h1>
+            <label>Watt:</label>
+            <input type="number" id="entrada-watt"/>
+            <label>Resultado em CV:</label>
+            <input type="text" id="resultado-cv" disabled/>
+            <label>Resultado em HP:</label>
+            <input type="text" id="resultado-hp" disabled/>
+            <label>Resultado em BTU/h:</label>
+            <input type="text" id="resultado-btu" disabled/>
+            <button id='btn-watt'>Converter</button>
+            
+        </div>
+
+        <div class="wrapper" id="wrapper-2">
+            <h1>Calculadora de área e volume de um paralelepípedo;</h1>
+            <label>Comprimento:</label>
+            <input type="number" id="entrada-comp"/>
+            <label>Largura:</label>
+            <input type="number" id="entrada-larg"/>
+            <label>Altura:</label>
+            <input type="number" id="entrada-altu"/>
+
+            <button id="btn-area"> Área </button>
+            <input type="number" id="resultado-area" disabled/>
+
+            <button id="btn-volume"> Volume </button>
+            <input type="number" id="resultado-volume" disabled/>
+
+            
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>

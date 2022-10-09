@@ -1,0 +1,67 @@
+body {
+    color:#696969;
+    background-color: #C71585;
+    
+}
+
+h1 { 
+    text-align: center;
+    grid-column: 1 / 3;
+}
+
+
+
+
+.tab {
+    color: #696969;
+    min-width: 220px;
+    background: lightpink;
+    height: 80px;
+    border-color: #C71585;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px #C71585 ;
+}
+
+.tabs {
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.wrapper {
+    text-align: center;
+    padding: 10px 200px;
+    background: pink;
+    gap: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 5px 5px #eee;
+    
+}
+
+button {
+    grid-column: 1 / 3;
+    height: 50px;
+}
+
+wrapper label {
+    grid-column: 1 / 2;
+    text-align: center;
+    padding: 8px 0;
+
+}
+
+.ativa {
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    background: #C71585;
+    margin: 5px 5px 5px 5px;
+    box-shadow: 2px 2px 2px 2px lightpink;
+}
+
+
+label {
+    grid-column: 1 / 2;
+}
+
+
+
