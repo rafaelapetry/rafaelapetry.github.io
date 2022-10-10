@@ -3,7 +3,7 @@ const max = 11; // número da última imagem
 const updateRate = 2000;
 
 function proxImagem (img){
-    fetch("img/"+img+".jpg")
+    fetch("img/"+img+".png")
         .then(resp => resp.blob())
         .then(blob => {
             const imageObjectURL = URL.createObjectURL(blob); // cria endereço da imagem
